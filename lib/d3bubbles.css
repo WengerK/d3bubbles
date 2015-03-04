@@ -1,0 +1,19 @@
+/* ----
+Alter cursor layout by pointer
+--- */
+svg.D3Bubbles g.bubble-wrapper circle{
+    cursor: pointer;
+}
+
+/* ----
+Disable text selection
+Disable "text-select" cursor
+--- */
+svg.D3Bubbles g.bubble-wrapper text{
+    cursor: pointer;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}

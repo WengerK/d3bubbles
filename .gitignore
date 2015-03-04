@@ -1,0 +1,9 @@
+# Ignore everything
+/*
+/*/
+
+# But not these FILES...
+!.gitignore
+!readme.md
+!/lib/
+!/lib/*
